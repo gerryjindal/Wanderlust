@@ -1,0 +1,120 @@
+body{
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.container{
+    flex: 1;
+}
+.navbar{
+    height: 5rem;
+    background-color: white !important;
+}
+.fa-compass{
+    color: #fe424d;
+    font-size: 2rem;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+}
+.nav-link{
+    color: #222222  !important;
+}
+.f-info-links a{
+    text-decoration:none ;
+    color: #222222;
+}
+.f-info-links a:hover{
+    text-decoration: underline;
+}
+.f-info-links,
+.f-info-socials,
+.f-info-brand{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-info-socials i{
+    font-size: 1.25rem;
+    margin-right: 1rem;
+}
+.f-info{
+    text-align:center;
+    height:8rem;
+    background-color: #ebebeb;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: space-evenly;
+}
+.listing-card{
+    border: none !important;
+    margin-bottom: 2rem;
+}
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+.card-body{
+    padding: 0rem;
+}
+.card-text p{
+    font-weight: 400 !important;
+}
+.listing-link{
+    text-decoration: none;
+}
+.card-img-overlay{
+    opacity: 0;
+}
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: white;
+}
+.add-btn{
+    background-color: #fe424d !important;
+    border:none !important;
+}
+.show-img{
+    height:30vh;
+}
+
+/* Map Styles */
+#map {
+    margin: auto;
+    height: 60vh;    
+    width: 90%;     
+    max-width: 100%; 
+}
+
+/* Adjust the map height for smaller screens */
+@media (max-width: 768px) {  
+    #map {
+        height: 30vh;
+    }
+}
+
+@media (max-width: 576px) { 
+    #map {
+        height: 25vh;
+    }
+}
+
+.navbar-collapse{
+    background-color: white!important;
+}
+
+.btn-search{
+    background-color: #fe424d !important;
+    color: #fff !important;
+    border-radius: 25px !important;
+    padding: 0 1rem 0 1rem;
+}
+
+.search-input{
+    border-radius: 25px !important;
+    /* padding:0.5 rem 3rem 0.5rem 3rem !important; */
+}
